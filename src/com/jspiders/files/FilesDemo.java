@@ -20,7 +20,7 @@ public class FilesDemo {
             fw.read(c1);
             String data = String.valueOf(c1);
             System.out.println(data);
-            System.out.println("File writing completed");
+            System.out.println("File writing completed successfully");
         }
         catch (IOException ex) {
             ex.printStackTrace();
