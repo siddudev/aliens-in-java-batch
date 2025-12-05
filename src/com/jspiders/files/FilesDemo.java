@@ -9,7 +9,7 @@ public class FilesDemo {
 
     public static void main(String[] args)
     {
-        System.out.println("Program starts...");
+        System.out.println("Program starting now...");
 
         File f1 = new File("D://Demo2/Test1.txt");
         
@@ -23,7 +23,7 @@ public class FilesDemo {
             System.out.println("File writing completed successfully");
         }
         catch (IOException ex) {
-            System.out.println("Error reading file");
+
             ex.printStackTrace();
         }
         System.out.println("changes done");
