@@ -9,6 +9,7 @@ public class Mainclass {
         System.out.println("Program starts...");
 
         ArrayList a1 = new ArrayList();
+        ArrayList a2 = new ArrayList();
         a1.add(10);//insert
         a1.add(null);
         a1.add(20);
@@ -24,7 +25,7 @@ public class Mainclass {
             System.out.println(a1.get(index));
         }
 
-        System.out.println("before update : " +a1.get(1));
+        System.out.println("update : " +a1.get(1));
         a1.add(1,5000);//update
         System.out.println("after update: " +a1.get(1));
 
