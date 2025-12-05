@@ -26,6 +26,7 @@ public class FilesDemo {
             System.out.println("Error reading file");
             ex.printStackTrace();
         }
+        System.out.println("changes done");
 
         System.out.println("Program ends............");
     }
