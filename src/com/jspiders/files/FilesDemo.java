@@ -23,7 +23,7 @@ public class FilesDemo {
             System.out.println("File writing completed successfully");
         }
         catch (IOException ex) {
-            System.out.println("Error reading file");
+
             ex.printStackTrace();
         }
 
